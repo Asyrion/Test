@@ -1,0 +1,1037 @@
+﻿Log file open, 07/23/17 17:10:06
+LogInit:Display: Running engine for game: Ex_Anima
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1438259425) SRandInit(-1438259425).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.094557
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: H:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.23-15.10.07:052][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.23-15.10.07:052][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.23-15.10.07:061][  0]LogInit: Computer: USER-PC
+[2017.07.23-15.10.07:061][  0]LogInit: User: User
+[2017.07.23-15.10.07:061][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.23-15.10.07:061][  0]LogInit: High frequency timer resolution =3.020362 MHz
+[2017.07.23-15.10.07:062][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.07.23-15.10.07:062][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.23-15.10.07:062][  0]LogMemory: Process Physical Memory: 270.94 MB used, 270.94 MB peak
+[2017.07.23-15.10.07:062][  0]LogMemory: Process Virtual Memory: 266.48 MB used, 266.48 MB peak
+[2017.07.23-15.10.07:062][  0]LogMemory: Physical Memory: 4892.88 MB used,  3255.44 MB free, 8148.32 MB total
+[2017.07.23-15.10.07:062][  0]LogMemory: Virtual Memory: 623.05 MB used,  3255.44 MB free, 134217728.00 MB total
+[2017.07.23-15.10.07:116][  0]LogInit: Using OS detected language (de-DE).
+[2017.07.23-15.10.07:116][  0]LogInit: Using OS detected locale (de-DE).
+[2017.07.23-15.10.07:118][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.07.23-15.10.07:118][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.07.23-15.10.08:131][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.23-15.10.08:155][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760 (192-bit)' (Feature Level 11_0)
+[2017.07.23-15.10.08:155][  0]LogD3D11RHI:       1475/0/2560 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.23-15.10.08:156][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.23-15.10.08:156][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.23-15.10.08:156][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.23-15.10.08:161][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.23-15.10.08:161][  0]LogD3D11RHI:     GPU DeviceId: 0x118e (for the marketing name, search the web for "GPU Device Id")
+[2017.07.23-15.10.08:161][  0]LogWindows: EnumDisplayDevices:
+[2017.07.23-15.10.08:161][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760 (192-bit)' (P:1 D:1)
+[2017.07.23-15.10.08:161][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760 (192-bit)' (P:0 D:1)
+[2017.07.23-15.10.08:161][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760 (192-bit)' (P:0 D:0)
+[2017.07.23-15.10.08:161][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.23-15.10.08:161][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760 (192-bit)
+[2017.07.23-15.10.08:161][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2017.07.23-15.10.08:161][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2017.07.23-15.10.08:161][  0]LogRHI: Texture pool is 1033 MB (70% of 1475 MB)
+[2017.07.23-15.10.08:173][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.23-15.10.08:191][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.23-15.10.08:302][  0]LogShaderCompilers: Guid format shader working directory is 30 characters bigger than the processId version (D:/UE4/Ex_Anima/Intermediate/Shaders/WorkingDirectory/7680/).
+[2017.07.23-15.10.08:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/99D0FE3F4381E6014FF8348037F8E895/'.
+[2017.07.23-15.10.08:302][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.23-15.10.09:387][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.23-15.10.09:427][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.23-15.10.09:465][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.23-15.10.09:504][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.23-15.10.09:544][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.23-15.10.09:584][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.23-15.10.09:624][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.23-15.10.09:663][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.23-15.10.09:696][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.23-15.10.09:735][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.23-15.10.09:772][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.23-15.10.09:807][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.23-15.10.09:843][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.23-15.10.09:882][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.23-15.10.09:921][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.23-15.10.09:999][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.23-15.10.09:999][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.23-15.10.10:026][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.23-15.10.10:102][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.23-15.10.10:125][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.23-15.10.10:160][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.23-15.10.10:197][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.23-15.10.10:235][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.23-15.10.10:276][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.23-15.10.10:276][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.23-15.10.10:613][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.23-15.10.10:733][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.23-15.10.10:733][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.23-15.10.10:733][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UE4/Ex_Anima/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.23-15.10.10:733][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.23-15.10.10:733][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UE4/Ex_Anima/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.23-15.10.10:733][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.23-15.10.10:754][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.23-15.10.10:772][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.23-15.10.10:784][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.23-15.10.10:784][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.23-15.10.10:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.23-15.10.10:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.23-15.10.11:141][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.23-15.10.11:230][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.23-15.10.11:369][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.23-15.10.11:398][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.23-15.10.11:431][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.23-15.10.11:431][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.23-15.10.11:431][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.23-15.10.11:986][  0]LogNetVersion: Ex_Anima , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2035612564)
+[2017.07.23-15.10.12:045][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.07.23-15.10.12:105][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.046909 seconds
+[2017.07.23-15.10.12:114][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.23-15.10.12:114][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.23-15.10.12:114][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.23-15.10.12:155][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.23-15.10.14:189][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.23-15.10.14:220][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.23-15.10.14:607][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.23-15.10.14:932][  0]SourceControl: Info Source control is disabled
+[2017.07.23-15.10.14:932][  0]SourceControl: Info Source control is disabled
+[2017.07.23-15.10.14:963][  0]SourceControl: Info Source control is disabled
+[2017.07.23-15.10.14:996][  0]SourceControl: Info Source control is disabled
+[2017.07.23-15.10.15:467][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.23-15.10.15:892][  0]LogEngine: Initializing Engine...
+[2017.07.23-15.10.15:893][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.23-15.10.16:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.23-15.10.16:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.23-15.10.16:294][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.23-15.10.16:302][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.23-15.10.16:322][  0]LogInit: FAudioDevice initialized.
+[2017.07.23-15.10.16:380][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/User/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.23-15.10.16:388][  0]LogInit: Texture streaming: Enabled
+[2017.07.23-15.10.16:458][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.23-15.10.16:614][  0]LogInit: Transaction tracking system initialized
+[2017.07.23-15.10.16:830][  0]BlueprintLog: New page: Editor Load
+[2017.07.23-15.10.17:476][  0]LocalizationService: Info Localization service is disabled
+[2017.07.23-15.10.17:981][  0]LogConsoleResponse:Display: 
+[2017.07.23-15.10.18:132][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.23-15.10.18:132][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.23-15.10.18:472][  0]LogFileCache: Scanning file cache for directory 'D:/UE4/Ex_Anima/Content/' took 0.01s
+[2017.07.23-15.10.18:795][  0]SourceControl: Info Source control is disabled
+[2017.07.23-15.10.18:795][  0]Cmd: MAP LOAD FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.23-15.10.18:796][  0]LightingResults: New page: Lighting Build
+[2017.07.23-15.10.18:823][  0]MapCheck: New page: Map Check
+[2017.07.23-15.10.18:823][  0]LightingResults: New page: Lighting Build
+[2017.07.23-15.10.19:281][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.07.23-15.10.19:300][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.23-15.10.19:320][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.23-15.10.19:358][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.47ms to complete.
+[2017.07.23-15.10.19:358][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.563
+[2017.07.23-15.10.19:492][  0]LogCollectionManager: Loaded 0 collections in 0.000764 seconds
+[2017.07.23-15.10.19:563][  0]LogFileCache: Scanning file cache for directory 'D:/UE4/Ex_Anima/Saved/Collections/' took 0.01s
+[2017.07.23-15.10.19:563][  0]LogFileCache: Scanning file cache for directory 'D:/UE4/Ex_Anima/Content/Developers/User/Collections/' took 0.01s
+[2017.07.23-15.10.19:563][  0]LogFileCache: Scanning file cache for directory 'D:/UE4/Ex_Anima/Content/Collections/' took 0.01s
+[2017.07.23-15.10.19:563][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.23-15.10.19:574][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2329 classes and 491 folders.
+[2017.07.23-15.10.19:621][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.23-15.10.19:655][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.23-15.10.19:687][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.07.23-15.10.19:784][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.23-15.10.19:789][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.23-15.10.19:791][  0]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.23-15.10.19:797][  0]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.23-15.10.19:902][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.07.23-15.10.20:123][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.23-15.10.20:177][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.23-15.10.20:178][  0]LogLoad: (Engine Initialization) Total time: 14.43 seconds
+[2017.07.23-15.10.20:178][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.07.23-15.10.20:178][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.23-15.10.20:178][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.23-15.10.20:187][  0]LogOcInput: OculusInput pre-init called
+[2017.07.23-15.10.20:187][  0]LogHMD: Starting GearVRController plugin
+[2017.07.23-15.10.20:209][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.23-15.10.20:261][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.23-15.10.20:298][  1]LogAssetRegistry: Asset discovery search completed in 8.2750 seconds
+[2017.07.23-15.10.20:301][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.23-15.10.20:301][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2017.07.23-15.10.21:222][ 74]LogSlate: Took 0.000364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.23-15.10.26:077][539]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.23-15.10.26:468][539]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.07.23-15.10.27:456][539]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.10.27:456][539]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.10.27:456][539]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.10.27:461][539]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.23-15.10.27:608][540]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.23-15.10.55:939][454]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected'
+[2017.07.23-15.10.55:940][454]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected'
+[2017.07.23-15.12.26:798][974]LogSlate: Took 0.033031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.07.23-15.13.51:844][ 13]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.13.51:997][ 13]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.16.17:258][348]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium'
+[2017.07.23-15.16.17:258][348]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium' while loading D:/UE4/Ex_Anima/Content/ThirdPersonBP/Fonts/Futura_Condensed_Medium_Font.uasset.
+[2017.07.23-15.16.17:259][348]LoadErrors:Error: Error /Game/ThirdPersonBP/Fonts/Futura_Condensed_Medium_Font : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium
+[2017.07.23-15.16.17:259][348]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium'
+[2017.07.23-15.16.17:259][348]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium' while loading D:/UE4/Ex_Anima/Content/ThirdPersonBP/Fonts/Futura_Condensed_Medium_Font.uasset.
+[2017.07.23-15.16.17:259][348]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium'
+[2017.07.23-15.16.17:259][348]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium.Futura_Condensed_Medium Referenced by Futura_Condensed_Medium_Font
+[2017.07.23-15.16.17:259][348]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/Fonts/Futura_Condensed_Medium' while loading NULL.
+[2017.07.23-15.21.52:171][454]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.21.52:290][454]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.25.02:272][170]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.25.02:390][170]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.25.03:195][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset" SILENT=true
+[2017.07.23-15.25.03:260][261]LogSavePackage: Save=50.35ms
+[2017.07.23-15.25.03:260][261]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/UI_OnItemSelected744E764C45BC8D4D347E1F8B12E83423.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset'
+[2017.07.23-15.25.03:262][261]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset
+[2017.07.23-15.25.39:913][820]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.25.40:024][820]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.25.40:578][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset" SILENT=true
+[2017.07.23-15.25.40:605][883]LogSavePackage: Save=25.51ms
+[2017.07.23-15.25.40:605][883]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/UI_OnItemSelected88C8BEEB4D2F397640B5FFA4B4862951.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset'
+[2017.07.23-15.25.40:608][883]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset
+[2017.07.23-15.26.45:571][658]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.23-15.27.10:484][614]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.27.10:593][614]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.27.11:127][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset" SILENT=true
+[2017.07.23-15.27.11:155][674]LogSavePackage: Save=26.21ms
+[2017.07.23-15.27.11:155][674]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/UI_OnItemSelected4CEB578B45AFFF792F8F86B5C392608B.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset'
+[2017.07.23-15.27.11:157][674]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset
+[2017.07.23-15.27.25:142][956]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.27.25:243][956]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.27.52:908][250]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.27.53:010][250]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.28.15:225][843]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.28.15:327][843]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.28.37:078][427]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.017
+[2017.07.23-15.28.37:080][427]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected] ([1] browsable assets)...
+[2017.07.23-15.28.37:080][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected]
+[2017.07.23-15.28.37:137][427]LogSavePackage: Save=28.93ms
+[2017.07.23-15.28.37:137][427]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/UI_OnItemSelected_Auto1827EACCB4AD268749E4D73A2C07A152A.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected_Auto1.uasset'
+[2017.07.23-15.28.37:138][427]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected_Auto1.uasset
+[2017.07.23-15.28.37:138][427]LogFileHelpers: Auto-saving content packages took 0.060
+[2017.07.23-15.29.51:668][596]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.29.51:775][596]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.29.54:424][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset" SILENT=true
+[2017.07.23-15.29.54:482][909]LogSavePackage: Save=31.77ms
+[2017.07.23-15.29.54:482][909]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/UI_OnItemSelectedFF8CE4BE4421B03894696DB547DE4F85.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset'
+[2017.07.23-15.29.54:485][909]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset
+[2017.07.23-15.40.11:881][836]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.40.12:003][836]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.40.21:000][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemBlueprints/ItemWeapon" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemBlueprints/ItemWeapon.uasset" SILENT=true
+[2017.07.23-15.40.21:005][836]LogSavePackage: Save=2.40ms
+[2017.07.23-15.40.21:005][836]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWeapon3529B7654251A73099CD729101F00AAF.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemBlueprints/ItemWeapon.uasset'
+[2017.07.23-15.40.21:006][836]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemBlueprints/ItemWeapon.uasset
+[2017.07.23-15.40.21:620][910]BlueprintLog: New page: Compile ItemWeapon
+[2017.07.23-15.43.11:092][806]BlueprintLog: New page: Compile ItemArmor
+[2017.07.23-15.43.11:698][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemBlueprints/ItemArmor" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemBlueprints/ItemArmor.uasset" SILENT=true
+[2017.07.23-15.43.11:704][863]LogSavePackage: Save=2.72ms
+[2017.07.23-15.43.11:704][863]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemArmorCCC7023F4B14AE14972CBE87E0109FAF.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemBlueprints/ItemArmor.uasset'
+[2017.07.23-15.43.11:706][863]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemBlueprints/ItemArmor.uasset
+[2017.07.23-15.45.15:570][140]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-15.45.15:704][140]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-15.45.25:013][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset" SILENT=true
+[2017.07.23-15.45.25:118][619]LogSavePackage: Save=102.43ms
+[2017.07.23-15.45.25:118][619]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/UI_OnItemSelected2206666D47A4F7E7ADE7578854A43D0B.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset'
+[2017.07.23-15.45.25:121][619]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset
+[2017.07.23-15.45.55:026][185]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.45.55:026][185]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.45.55:026][185]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.45.56:643][377]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.45.56:758][377]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.45.56:758][377]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.45.56:758][377]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.45.56:859][377]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.45.56:859][377]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.45.56:859][377]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.00:294][513]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.00:294][513]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.00:294][513]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.05:427][121]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.05:427][121]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.05:427][121]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.11:194][795]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.11:194][795]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.11:194][795]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.12:458][944]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.46.12:567][944]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.12:567][944]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.12:567][944]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.12:667][944]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.12:667][944]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.12:667][944]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.21:776][ 34]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.21:776][ 34]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.21:776][ 34]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.26:748][627]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.26:748][627]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.26:748][627]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.29:764][985]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.29:764][985]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.29:764][985]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.38:026][973]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.38:026][973]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.38:026][973]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.40:840][302]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.40:840][302]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.40:840][302]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.43:873][663]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.46.43:982][663]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.43:982][663]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.43:982][663]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.44:084][663]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.44:084][663]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.44:084][663]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.45:558][837]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.45:558][837]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.45:558][837]LogScript:Warning: Accessed None trying to read property ItemReference
+	ItemWorldActor_C /Engine/Transient.World_2:PersistentLevel.ItemWorldActor_C_0
+	Function /Game/ThirdPersonBP/Blueprints/ItemWorldActor.ItemWorldActor_C:UserConstructionScript:0085
+[2017.07.23-15.46.45:559][837]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.45:559][837]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.46:849][992]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.46.46:860][992]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.46:860][992]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.46:962][992]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.46.46:962][992]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.46.49:811][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemWorldActor" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset" SILENT=true
+[2017.07.23-15.46.49:833][322]LogSavePackage: Save=19.46ms
+[2017.07.23-15.46.49:833][322]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWorldActor31EE7BEB498476D3D06924B1450B082A.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset'
+[2017.07.23-15.46.49:836][322]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset
+[2017.07.23-15.49.30:125][913]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.49.30:125][913]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.49.59:350][365]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.49.59:513][365]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.49.59:513][365]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.49.59:643][365]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.49.59:643][365]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.50.49:295][574]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.50.49:323][574]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.50.49:323][574]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.50.49:432][574]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.50.49:432][574]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.51.11:272][ 84]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.032
+[2017.07.23-15.51.11:274][ 84]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ItemWorldActor] ([1] browsable assets)...
+[2017.07.23-15.51.11:274][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ItemWorldActor]
+[2017.07.23-15.51.11:274][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemWorldActor" FILE="D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemWorldActor_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.07.23-15.51.11:309][ 84]LogSavePackage: Save=31.89ms
+[2017.07.23-15.51.11:309][ 84]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWorldActor_Auto248AD481E4309BD9B97743E9C98E3FB1E.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemWorldActor_Auto2.uasset'
+[2017.07.23-15.51.11:333][ 84]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemWorldActor_Auto2.uasset
+[2017.07.23-15.51.11:333][ 84]LogFileHelpers: Auto-saving content packages took 0.061
+[2017.07.23-15.51.52:820][422]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.51.52:820][422]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.53.48:634][110]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.53.48:634][110]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.54.34:280][507]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.54.34:341][507]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.54.34:341][507]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.54.34:452][507]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.54.34:452][507]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.54.35:223][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemWorldActor" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset" SILENT=true
+[2017.07.23-15.54.35:268][595]LogSavePackage: Save=43.38ms
+[2017.07.23-15.54.35:268][595]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWorldActor0605DE094440EE22D53021A889768757.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset'
+[2017.07.23-15.54.35:289][595]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset
+[2017.07.23-15.54.43:539][583]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-15.54.43:558][583]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.54.43:558][583]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.54.43:668][583]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.54.43:668][583]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.54.44:006][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemWorldActor" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset" SILENT=true
+[2017.07.23-15.54.44:079][619]LogSavePackage: Save=42.93ms
+[2017.07.23-15.54.44:079][619]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWorldActorB6FC2513433481575EEE37845B9E2105.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset'
+[2017.07.23-15.54.44:081][619]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset
+[2017.07.23-15.55.04:437][652]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.55.04:437][652]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.56.11:360][569]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-15.56.19:609][535]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.56.19:609][535]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.56.19:615][535]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.56.19:615][535]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.57.29:068][721]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.57.29:068][721]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.57.56:241][973]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.57.56:241][973]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.58.21:049][938]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.58.21:049][938]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-15.58.40:043][211]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-15.58.40:043][211]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-16.00.19:343][119]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-16.00.19:389][119]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-16.00.19:389][119]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-16.00.19:508][119]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-16.00.19:508][119]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-16.00.30:710][451]BlueprintLog: New page: Compile ItemWorldActor
+[2017.07.23-16.00.30:735][451]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-16.00.30:735][451]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-16.00.30:843][451]PIE:Error: Error SpawnObject wrong class: None'
+[2017.07.23-16.00.30:843][451]LogScript:Error: UGameplayStatics::SpawnObject wrong class: None
+[2017.07.23-16.00.55:486][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemWorldActor" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset" SILENT=true
+[2017.07.23-16.00.55:560][402]LogSavePackage: Save=72.17ms
+[2017.07.23-16.00.55:560][402]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWorldActor3B24A64F43182E25C111058735066A52.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset'
+[2017.07.23-16.00.55:563][402]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset
+[2017.07.23-16.01.53:792][945]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.025
+[2017.07.23-16.01.53:793][945]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ItemWorldActor] ([1] browsable assets)...
+[2017.07.23-16.01.53:793][945]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ItemWorldActor]
+[2017.07.23-16.01.53:793][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemWorldActor" FILE="D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemWorldActor_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.07.23-16.01.53:862][945]LogSavePackage: Save=66.92ms
+[2017.07.23-16.01.53:862][945]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWorldActor_Auto338A805DF48C3E6E66A9DFD964967EC0D.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemWorldActor_Auto3.uasset'
+[2017.07.23-16.01.53:864][945]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ItemWorldActor_Auto3.uasset
+[2017.07.23-16.01.53:864][945]LogFileHelpers: Auto-saving content packages took 0.071
+[2017.07.23-16.03.05:354][101]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-16.03.12:020][896]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-16.03.14:663][207]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-16.03.58:060][831]LogRenderer: Reallocating scene render targets to support 1208x840 NumSamples 1 (Frame:1).
+[2017.07.23-16.04.30:732][119]BlueprintLog: New page: Compile ThirdPersonHUD
+[2017.07.23-16.04.36:049][515]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-16.04.39:683][943]BlueprintLog: New page: Compile ThirdPersonHUD
+[2017.07.23-16.04.40:983][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonHUD" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset" SILENT=true
+[2017.07.23-16.04.40:993][ 65]LogSavePackage: Save=8.82ms
+[2017.07.23-16.04.40:993][ 65]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonHUD71076B824FBB07D7FB1694856CEFE131.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset'
+[2017.07.23-16.04.40:995][ 65]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset
+[2017.07.23-16.05.18:382][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset" SILENT=true
+[2017.07.23-16.05.18:465][523]LogSavePackage: Save=80.58ms
+[2017.07.23-16.05.18:465][523]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/UI_OnItemSelected3E170DCC449976567FC1B5BF3E368BB9.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset'
+[2017.07.23-16.05.18:468][523]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/Widgets/UI_OnItemSelected.uasset
+[2017.07.23-16.05.18:874][570]BlueprintLog: New page: Compile UI_OnItemSelected
+[2017.07.23-16.05.19:013][570]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.23-16.05.29:037][730]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-16.10.59:935][280]BlueprintLog: New page: Compile ThirdPersonHUD
+[2017.07.23-16.11.00:545][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonHUD" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset" SILENT=true
+[2017.07.23-16.11.00:587][333]LogSavePackage: Save=39.92ms
+[2017.07.23-16.11.00:587][333]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonHUDDCC609EC4A0D722982D385A5D0617FE2.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset'
+[2017.07.23-16.11.00:590][333]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset
+[2017.07.23-16.11.27:877][146]BlueprintLog: New page: Compile ThirdPersonHUD
+[2017.07.23-16.11.28:694][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonHUD" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset" SILENT=true
+[2017.07.23-16.11.28:715][226]LogSavePackage: Save=19.43ms
+[2017.07.23-16.11.28:715][226]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonHUDD03ADBA74059DAB1B60E0CB853AA5FCC.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset'
+[2017.07.23-16.11.28:718][226]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonHUD.uasset
+[2017.07.23-16.11.54:333][254]LogSavePackage: Save=161.05ms
+[2017.07.23-16.11.54:333][254]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto4961C14A347D81390840446A6233CEEEA.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.07.23-16.11.54:335][254]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.07.23-16.11.54:336][254]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.193
+[2017.07.23-16.11.54:336][254]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.193
+[2017.07.23-16.11.54:338][254]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2017.07.23-16.11.54:338][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2017.07.23-16.11.54:361][254]LogSavePackage: Save=21.37ms
+[2017.07.23-16.11.54:361][254]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonGameMode_Auto4B45457514C6F53CBE44422AFD3FC57F9.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto4.uasset'
+[2017.07.23-16.11.54:362][254]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto4.uasset
+[2017.07.23-16.11.54:362][254]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.07.23-16.18.28:089][499]BlueprintLog: New page: Compile ThirdPersonHUD
+[2017.07.23-16.18.33:072][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ItemWorldActor" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset" SILENT=true
+[2017.07.23-16.18.33:139][830]LogSavePackage: Save=64.85ms
+[2017.07.23-16.18.33:140][830]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ItemWorldActor4B83155B4105CDA3FC8753AD2C57DEA7.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset'
+[2017.07.23-16.18.33:142][830]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ItemWorldActor.uasset
+[2017.07.23-16.18.35:413][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.23-16.19.03:710][820]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.23-16.19.04:088][822]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ExAnima
+[2017.07.23-16.19.04:090][822]LogTemp: CWD: H:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.23-16.19.04:090][822]LogTemp: Initial Dir: H:\UE_4.16
+[2017.07.23-16.19.04:090][822]LogTemp: Env CWD: H:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.23-16.19.04:090][822]LogTemp: BranchPath = USER-PC/H/UE_4.16/Engine/Binaries --- GameBranchPath = USER-PC/H/UE_4.16/Engine/Binaries
+[2017.07.23-16.19.04:121][823]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\User\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.23-16.20.28:094][525]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.20.54:131][666]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.21.54:422][783]LogSavePackage: Save=144.74ms
+[2017.07.23-16.21.54:422][783]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto59D5C68BD4CD23F1FCD26619F20DDE2E5.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.07.23-16.21.54:430][783]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.07.23-16.21.54:431][783]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.180
+[2017.07.23-16.21.54:431][783]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.180
+[2017.07.23-16.21.54:433][783]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1] ([1] browsable assets)...
+[2017.07.23-16.21.54:455][783]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.ThirdPersonCharacter_1]
+[2017.07.23-16.21.54:455][783]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1]
+[2017.07.23-16.21.54:538][783]LogSavePackage: Save=63.14ms
+[2017.07.23-16.21.54:538][783]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1_Auto580761D7746920E995F6A4D890473C3C3.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto5.uasset'
+[2017.07.23-16.21.54:540][783]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto5.uasset
+[2017.07.23-16.21.54:540][783]LogFileHelpers: Auto-saving content packages took 0.108
+[2017.07.23-16.22.28:941][873]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.23.10:267][735]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.23.48:413][243]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.23.49:870][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.23.49:946][388]LogSavePackage: Save=60.91ms
+[2017.07.23-16.23.49:946][388]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_18D1DF6DF4FDE9A40CCF68C9D77F27EE4.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.23.49:949][388]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.24.02:852][920]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.25.05:107][303]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.25.06:049][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.25.06:113][338]LogSavePackage: Save=61.87ms
+[2017.07.23-16.25.06:113][338]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1B030BDB14D2710D25328528146BE1730.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.25.06:115][338]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.25.17:766][716]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.26.38:922][344]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.26.39:731][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.26.39:806][361]LogSavePackage: Save=73.50ms
+[2017.07.23-16.26.39:806][361]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1E96BECA04AA2926AF51D828A614C760B.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.26.39:808][361]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.27.50:995][195]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.27.51:679][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.27.51:746][237]LogSavePackage: Save=63.65ms
+[2017.07.23-16.27.51:746][237]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_13CF6835B42BBAE95062D5F8AE516E017.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.27.51:753][237]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.28.19:543][913]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.28.20:547][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.28.20:615][984]LogSavePackage: Save=65.33ms
+[2017.07.23-16.28.20:615][984]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_18890574E4B8CAD88BCAC2396E5404A1A.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.28.20:617][984]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.28.30:219][ 94]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.28.30:981][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.28.31:048][140]LogSavePackage: Save=66.14ms
+[2017.07.23-16.28.31:049][140]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1010B16334D2F38D0B0826EBD493C3329.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.28.31:051][140]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.29.38:008][ 87]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.29.38:030][ 87]LogBlueprint:Warning: [Compiler ThirdPersonCharacter_1] Warning  Sequence  has no valid output
+[2017.07.23-16.29.38:166][ 87]BlueprintEditorCompileResults:Warning: Warning  Sequence  has no valid output
+[2017.07.23-16.29.38:166][ 87]LogBlueprint:Warning: [Compiler ThirdPersonCharacter_1] Warning [4772.42] Compile of ThirdPersonCharacter_1 successful, but with 1 Warning(s) [in 157 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.ThirdPersonCharacter_1)
+[2017.07.23-16.29.38:716][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.29.38:784][125]LogSavePackage: Save=65.91ms
+[2017.07.23-16.29.38:784][125]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1B868E4444C020C78CBA35886FF06CBCB.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.29.38:787][125]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.31.57:195][134]LogSavePackage: Save=156.80ms
+[2017.07.23-16.31.57:195][134]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto6A33B589E42E1CB07E362BEAAA94E3FF0.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2017.07.23-16.31.57:196][134]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2017.07.23-16.31.57:201][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.204
+[2017.07.23-16.31.57:216][134]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2017.07.23-16.31.57:217][134]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1] ([1] browsable assets)...
+[2017.07.23-16.31.57:238][134]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.ThirdPersonCharacter_1]
+[2017.07.23-16.31.57:239][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1]
+[2017.07.23-16.31.57:310][134]LogSavePackage: Save=69.27ms
+[2017.07.23-16.31.57:310][134]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1_Auto6CF446C6F4C0D18938ACAB5ABCEDC4B20.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto6.uasset'
+[2017.07.23-16.31.57:311][134]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto6.uasset
+[2017.07.23-16.31.57:311][134]LogFileHelpers: Auto-saving content packages took 0.095
+[2017.07.23-16.41.17:400][494]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-16.42.59:440][465]LogSavePackage: Save=160.23ms
+[2017.07.23-16.42.59:440][465]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto78DD2E68D4D97376D129864947EAC2C92.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2017.07.23-16.42.59:442][465]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap
+[2017.07.23-16.42.59:448][465]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.206
+[2017.07.23-16.42.59:448][465]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.206
+[2017.07.23-16.42.59:450][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1] ([1] browsable assets)...
+[2017.07.23-16.42.59:472][465]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.ThirdPersonCharacter_1]
+[2017.07.23-16.42.59:472][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1]
+[2017.07.23-16.42.59:566][465]LogSavePackage: Save=87.29ms
+[2017.07.23-16.42.59:566][465]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1_Auto78AA123774399D7E2197814B55843C489.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto7.uasset'
+[2017.07.23-16.42.59:567][465]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto7.uasset
+[2017.07.23-16.42.59:567][465]LogFileHelpers: Auto-saving content packages took 0.118
+[2017.07.23-16.43.17:808][113]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.43.18:651][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.43.18:748][169]LogSavePackage: Save=94.70ms
+[2017.07.23-16.43.18:748][169]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1C826F0D6470BE02EE1ED3E91BF3BD7D6.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.43.18:751][169]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.43.20:471][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.23-16.43.20:643][360]LogSavePackage: Save=151.01ms
+[2017.07.23-16.43.20:648][360]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap21244C0C4F8BCE1EC1105D8BCB977ECB.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.07.23-16.43.20:650][360]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.07.23-16.43.20:670][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.07.23-16.43.21:054][360]LogSavePackage: Save=262.46ms
+[2017.07.23-16.43.21:054][360]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_BuiltData988C6F344CB8ADDAEDDA73999D25596B.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.07.23-16.43.21:055][360]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.07.23-16.44.04:298][983]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.44.04:868][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.44.04:963][999]LogSavePackage: Save=93.73ms
+[2017.07.23-16.44.04:963][999]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1B9A59B624D34478E7FAAEEB484CE4C7F.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.44.04:966][999]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.48.15:496][179]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.23-16.53.36:865][658]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-16.53.37:661][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-16.53.37:837][702]LogSavePackage: Save=149.78ms
+[2017.07.23-16.53.37:837][702]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1723D0CE2472CCBCE7573AFA7DF53463D.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-16.53.37:860][702]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-16.54.04:071][ 53]LogSavePackage: Save=140.41ms
+[2017.07.23-16.54.04:071][ 53]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto8E1A7A4F044B6818BADB24E93741127CD.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2017.07.23-16.54.04:081][ 53]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap
+[2017.07.23-16.54.04:082][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.176
+[2017.07.23-16.54.04:082][ 53]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
+[2017.07.23-17.04.18:460][211]LogSavePackage: Save=146.11ms
+[2017.07.23-17.04.18:460][211]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto90AECD108445A74A25C42EA8A553D70B0.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto9.umap'
+[2017.07.23-17.04.18:461][211]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto9.umap
+[2017.07.23-17.04.18:464][211]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.193
+[2017.07.23-17.04.18:464][211]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.193
+[2017.07.23-17.04.18:479][211]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1] ([1] browsable assets)...
+[2017.07.23-17.04.18:499][211]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.ThirdPersonCharacter_1]
+[2017.07.23-17.04.18:499][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1]
+[2017.07.23-17.04.18:656][211]LogSavePackage: Save=140.01ms
+[2017.07.23-17.04.18:656][211]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1_Auto9C8ED927444253E60ED3EF9B08A114FDC.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto9.uasset'
+[2017.07.23-17.04.18:657][211]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto9.uasset
+[2017.07.23-17.04.18:657][211]LogFileHelpers: Auto-saving content packages took 0.179
+[2017.07.23-17.05.23:749][355]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-17.14.16:287][116]LogSavePackage: Save=143.85ms
+[2017.07.23-17.14.16:287][116]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto00B64BFC94121A2AA598F4995DABE81B3.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto0.umap'
+[2017.07.23-17.14.16:289][116]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto0.umap
+[2017.07.23-17.14.16:290][116]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.176
+[2017.07.23-17.14.16:290][116]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
+[2017.07.23-17.14.16:292][116]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1] ([1] browsable assets)...
+[2017.07.23-17.14.16:315][116]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.ThirdPersonCharacter_1]
+[2017.07.23-17.14.16:315][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1]
+[2017.07.23-17.14.16:476][116]LogSavePackage: Save=146.61ms
+[2017.07.23-17.14.16:476][116]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1_Auto0075E931046DAFB9729E1E7A8944DF5BB.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto0.uasset'
+[2017.07.23-17.14.16:477][116]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1_Auto0.uasset
+[2017.07.23-17.14.16:477][116]LogFileHelpers: Auto-saving content packages took 0.186
+[2017.07.23-17.19.45:319][157]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-17.19.46:141][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-17.19.46:308][204]LogSavePackage: Save=163.92ms
+[2017.07.23-17.19.46:308][204]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_145B3148948E67B28C83C9580163FBB75.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-17.19.46:310][204]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-17.25.10:548][720]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-17.25.11:887][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-17.25.12:191][829]LogSavePackage: Save=228.32ms
+[2017.07.23-17.25.12:191][829]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_16EA49AFE47F8D954D68F68BDA5D12FAB.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-17.25.12:210][829]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-17.25.33:813][358]LogSavePackage: Save=183.04ms
+[2017.07.23-17.25.33:813][358]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto142DA33E44E63BD68BBB7DF905B57D42D.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.07.23-17.25.33:838][358]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.07.23-17.25.33:839][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.334
+[2017.07.23-17.25.33:839][358]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.334
+[2017.07.23-17.32.14:288][327]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-17.33.10:247][748]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-17.33.13:281][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-17.33.13:535][ 59]LogSavePackage: Save=250.85ms
+[2017.07.23-17.33.13:535][ 59]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_19BCE8AC043FBC4B88CD4A0A01FD257FE.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-17.33.13:538][ 59]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-17.35.19:478][102]BlueprintLog: New page: Compile ThirdPersonCharacter_1
+[2017.07.23-17.35.27:365][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset" SILENT=true
+[2017.07.23-17.35.27:591][512]LogSavePackage: Save=223.01ms
+[2017.07.23-17.35.27:591][512]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonCharacter_1CB45A9284850A40EB52ABC9EB3E214FA.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset'
+[2017.07.23-17.35.27:594][512]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter_1.uasset
+[2017.07.23-17.35.32:466][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.23-17.35.32:696][638]LogSavePackage: Save=174.36ms
+[2017.07.23-17.35.32:696][638]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap03B44D664F0456201DA70F97812312FE.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.07.23-17.35.32:699][638]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.07.23-17.35.32:844][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.07.23-17.35.33:293][638]LogSavePackage: Save=274.13ms
+[2017.07.23-17.35.33:293][638]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_BuiltDataBF16032B4060CA5E1B75CDADCC01AC5C.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.07.23-17.35.33:295][638]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.07.23-17.35.42:857][117]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.23-17.35.44:097][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.07.23-17.35.44:162][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.23-17.35.44:348][117]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 23, 2017, 9:35:44 PM)
+[2017.07.23-17.35.44:387][117]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.07.23-17.35.44:909][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.521316s)
+[2017.07.23-17.35.45:230][117]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.07.23-17.35.45:324][117]LogPlayLevel: PIE: World Init took: (0.403371s)
+[2017.07.23-17.35.45:334][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.958581s)
+[2017.07.23-17.35.45:582][117]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.23-17.35.45:633][117]LogInit: FAudioDevice initialized.
+[2017.07.23-17.35.46:058][117]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.07.23-17.35.46:444][117]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.07.23-19.35.46
+[2017.07.23-17.35.46:583][117]LogWorld: Bringing up level for play took: 0.418586
+[2017.07.23-17.35.47:656][117]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.1609 seconds. Added 11 classes and 0 folders.
+[2017.07.23-17.35.47:791][117]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.876
+[2017.07.23-17.35.47:792][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.07.23-17.35.52:608][376]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.07.23-17.35.53:102][376]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.07.23-17.45.39:580][210]LogSavePackage: Save=150.07ms
+[2017.07.23-17.45.39:580][210]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_Auto21FD87ED641D4053A9CEF369D0DF9A231.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.07.23-17.45.39:582][210]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.07.23-17.45.39:592][210]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.203
+[2017.07.23-17.45.39:592][210]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.203
+[2017.07.23-17.53.44:936][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.23-17.53.45:119][368]LogSavePackage: Save=157.71ms
+[2017.07.23-17.53.45:119][368]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap035C26564193C16C56E737AE78029300.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.07.23-17.53.45:122][368]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.07.23-17.53.45:138][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.07.23-17.53.45:265][368]LogSavePackage: Save=122.18ms
+[2017.07.23-17.53.45:265][368]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonExampleMap_BuiltDataBC2499634DD87AB2F5BE288D7CF99F65.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.07.23-17.53.45:267][368]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.07.23-18.00.30:197][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.23-18.03.45:751][760]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.056
+[2017.07.23-18.03.45:752][760]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/T_ItemPreview] ([1] browsable assets)...
+[2017.07.23-18.03.45:782][760]OBJ SavePackage:     Rendered thumbnail for [CanvasRenderTarget2D /Game/ThirdPersonBP/Blueprints/T_ItemPreview.T_ItemPreview]
+[2017.07.23-18.03.45:782][760]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/T_ItemPreview]
+[2017.07.23-18.03.45:782][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/T_ItemPreview" FILE="D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/T_ItemPreview_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.07.23-18.03.45:787][760]LogSavePackage: Save=4.12ms
+[2017.07.23-18.03.45:787][760]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/T_ItemPreview_Auto312F122844BD8300B9CF081BC5C69C960.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/T_ItemPreview_Auto3.uasset'
+[2017.07.23-18.03.45:788][760]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/T_ItemPreview_Auto3.uasset
+[2017.07.23-18.03.45:789][760]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial] ([1] browsable assets)...
+[2017.07.23-18.03.45:874][760]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial.M_ItemPreviewMaterial]
+[2017.07.23-18.03.45:874][760]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial]
+[2017.07.23-18.03.45:910][760]LogSavePackage: Save=33.33ms
+[2017.07.23-18.03.45:910][760]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/M_ItemPreviewMaterial_Auto34E159A0E4EF32A3CE7FB74BC7BC7D0A0.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial_Auto3.uasset'
+[2017.07.23-18.03.45:911][760]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial_Auto3.uasset
+[2017.07.23-18.03.45:912][760]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_RecordingActor] ([1] browsable assets)...
+[2017.07.23-18.03.45:919][760]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_RecordingActor]
+[2017.07.23-18.03.45:929][760]LogSavePackage: Save=8.48ms
+[2017.07.23-18.03.45:929][760]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/BP_RecordingActor_Auto364AD62F74C6E4E95D79224BEAAD90418.tmp' to 'D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_RecordingActor_Auto3.uasset'
+[2017.07.23-18.03.45:930][760]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_RecordingActor_Auto3.uasset
+[2017.07.23-18.03.45:930][760]LogFileHelpers: Auto-saving content packages took 0.178
+[2017.07.23-18.06.39:818][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RecordingActor" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/BP_RecordingActor.uasset" SILENT=true
+[2017.07.23-18.06.39:838][764]LogSavePackage: Save=6.73ms
+[2017.07.23-18.06.39:838][764]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/BP_RecordingActor1435D2A347B0C97464C969B8E2FD43AD.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/BP_RecordingActor.uasset'
+[2017.07.23-18.06.39:840][764]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/BP_RecordingActor.uasset
+[2017.07.23-18.07.10:696][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial.uasset" SILENT=true
+[2017.07.23-18.07.10:708][202]LogSavePackage: Save=11.29ms
+[2017.07.23-18.07.10:708][202]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/M_ItemPreviewMaterial8646E44C41889DA6858DBAB6D21D8DAC.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial.uasset'
+[2017.07.23-18.07.10:710][202]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/M_ItemPreviewMaterial.uasset
+[2017.07.23-18.07.10:718][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/T_ItemPreview" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/T_ItemPreview.uasset" SILENT=true
+[2017.07.23-18.07.10:722][202]LogSavePackage: Save=3.39ms
+[2017.07.23-18.07.10:722][202]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/T_ItemPreviewB56F198240B2FA957FCA639D3ED0A566.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/T_ItemPreview.uasset'
+[2017.07.23-18.07.10:724][202]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/T_ItemPreview.uasset
+[2017.07.23-18.07.10:727][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode" FILE="D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2017.07.23-18.07.11:104][202]LogSavePackage: Save=374.13ms
+[2017.07.23-18.07.11:104][202]LogSavePackage: Moving 'D:/UE4/Ex_Anima/Saved/ThirdPersonGameMode4245794840F7AA12335F39AE4C46B4DA.tmp' to 'D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2017.07.23-18.07.11:111][202]LogSavePackage:Display: Finished SavePackage D:/UE4/Ex_Anima/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2017.07.23-18.07.11:960][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.23-18.07.13:658][202]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.23-18.07.17:344][203]Cmd: QUIT_EDITOR
+[2017.07.23-18.07.20:148][203]LogExit: Preparing to exit.
+[2017.07.23-18.07.33:138][203]LogExit: Editor shut down
+[2017.07.23-18.07.33:473][203]LogExit: Transaction tracking system shut down
+[2017.07.23-18.07.44:822][203]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.23-18.07.44:853][203]LogExit: Object subsystem successfully closed.
+[2017.07.23-18.07.47:583][203]LogD3D11RHI: Shutdown
+[2017.07.23-18.07.47:583][203]LogD3D11RHI: CleanupD3DDevice
+[2017.07.23-18.07.50:035][203]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.23-18.07.51:260][203]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.07.23-18.07.51:276][203]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2017.07.23-18.07.51:276][203]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2017.07.23-18.07.51:276][203]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.07.23-18.07.51:276][203]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.07.23-18.07.51:288][203]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.23-18.07.51:288][203]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.23-18.07.51:303][203]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.23-18.07.51:303][203]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.23-18.07.51:368][203]LogDirectoryWatcher: A directory notification for 'H:/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.23-18.07.51:840][203]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.23-18.07.51:840][203]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.23-18.07.51:840][203]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.23-18.07.51:840][203]LogDirectoryWatcher: A directory notification for 'D:/UE4/Ex_Anima/Content/Collections/' was aborted.
+[2017.07.23-18.07.51:840][203]LogDirectoryWatcher: A directory notification for 'D:/UE4/Ex_Anima/Content/Developers/User/Collections/' was aborted.
+[2017.07.23-18.07.51:840][203]LogDirectoryWatcher: A directory notification for 'D:/UE4/Ex_Anima/Saved/Collections/' was aborted.
+[2017.07.23-18.07.51:841][203]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.23-18.07.51:876][203]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.23-18.07.51:877][203]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.23-18.07.51:982][203]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.23-18.07.51:982][203]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.23-18.07.51:982][203]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.23-18.07.51:982][203]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.23-18.07.51:996][203]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.23-18.07.51:996][203]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.23-18.07.52:011][203]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.23-18.07.52:012][203]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.23-18.07.52:012][203]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.23-18.07.52:012][203]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.23-18.07.52:020][203]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.23-18.07.52:095][203]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.23-18.07.52:095][203]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.23-18.07.52:095][203]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.23-18.07.52:095][203]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.23-18.07.52:095][203]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.23-18.07.52:095][203]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.23-18.07.52:095][203]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.23-18.07.52:114][203]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.23-18.07.52:114][203]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.23-18.07.52:114][203]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.23-18.07.52:133][203]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.23-18.07.52:157][203]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.23-18.07.52:176][203]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.23-18.07.52:176][203]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.23-18.07.52:181][203]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.23-18.07.52:181][203]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.23-18.07.52:207][203]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.23-18.07.52:290][203]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.23-18.07.52:429][203]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.23-18.07.52:460][203]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.23-18.07.52:460][203]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.23-18.07.52:460][203]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.23-18.07.52:460][203]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.23-18.07.52:460][203]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.23-18.07.52:765][203]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.23-18.07.52:765][203]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.23-18.07.52:765][203]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.23-18.07.52:789][203]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.23-18.07.52:805][203]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.23-18.07.52:806][203]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.23-18.07.52:823][203]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.23-18.07.52:823][203]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.23-18.07.52:887][203]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.23-18.07.52:887][203]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.23-18.07.52:887][203]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.23-18.07.52:903][203]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.23-18.07.52:903][203]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.23-18.07.52:903][203]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.23-18.07.52:903][203]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.23-18.07.52:903][203]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.23-18.07.52:903][203]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.23-18.07.53:035][203]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.23-18.07.53:035][203]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.23-18.07.53:036][203]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.23-18.07.53:061][203]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.23-18.07.53:139][203]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.23-18.07.53:140][203]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.23-18.07.53:179][203]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.23-18.07.53:253][203]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.23-18.07.53:278][203]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.23-18.07.53:289][203]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.23-18.07.53:325][203]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.23-18.07.53:325][203]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.23-18.07.53:350][203]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.23-18.07.53:388][203]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.23-18.07.53:426][203]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.23-18.07.53:426][203]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.23-18.07.53:450][203]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.23-18.07.54:165][203]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.23-18.07.54:170][203]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.23-18.07.54:170][203]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.23-18.07.54:170][203]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.23-18.07.54:226][203]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.23-18.07.54:237][203]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.23-18.07.54:237][203]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.23-18.07.54:293][203]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.23-18.07.54:293][203]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.23-18.07.54:293][203]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.23-18.07.54:294][203]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.23-18.07.54:390][203]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.23-18.07.54:399][203]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.23-18.07.54:399][203]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.23-18.07.54:399][203]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.23-18.07.54:399][203]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.23-18.07.54:399][203]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.23-18.07.54:399][203]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.23-18.07.54:476][203]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.23-18.07.54:498][203]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.23-18.07.54:566][203]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.23-18.07.54:583][203]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.23-18.07.54:583][203]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.23-18.07.54:583][203]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.23-18.07.54:584][203]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.23-18.07.54:584][203]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.23-18.07.54:606][203]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.23-18.07.54:606][203]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.23-18.07.54:606][203]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.23-18.07.54:606][203]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.23-18.07.54:606][203]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.23-18.07.54:606][203]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.23-18.07.54:606][203]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.23-18.07.54:634][203]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.23-18.07.54:634][203]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.23-18.07.54:634][203]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.23-18.07.54:634][203]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.23-18.07.54:634][203]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.23-18.07.54:634][203]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.23-18.07.54:634][203]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.23-18.07.54:650][203]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.23-18.07.54:650][203]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.23-18.07.54:694][203]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.23-18.07.54:716][203]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.23-18.07.54:716][203]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.23-18.07.54:716][203]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.23-18.07.54:716][203]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.23-18.07.54:716][203]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.23-18.07.54:728][203]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.23-18.07.54:728][203]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.23-18.07.54:728][203]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.23-18.07.54:729][203]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.23-18.07.54:729][203]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.23-18.07.54:729][203]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.23-18.07.54:783][203]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.23-18.07.54:790][203]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.23-18.07.55:009][203]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.23-18.07.55:032][203]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.23-18.07.55:041][203]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.23-18.07.55:066][203]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.23-18.07.55:066][203]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.23-18.07.55:066][203]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.23-18.07.55:066][203]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.23-18.07.55:066][203]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.23-18.07.55:072][203]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.23-18.07.55:173][203]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.23-18.07.55:274][203]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.23-18.07.55:296][203]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.23-18.07.55:316][203]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.23-18.07.55:317][203]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.23-18.07.55:341][203]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.23-18.07.55:341][203]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.23-18.07.55:473][203]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.23-18.07.55:473][203]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.23-18.07.55:473][203]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.23-18.07.55:491][203]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.23-18.07.55:522][203]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.23-18.07.55:532][203]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.23-18.07.55:551][203]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.23-18.07.55:551][203]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.23-18.07.55:551][203]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.23-18.07.55:785][203]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.23-18.07.55:810][203]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.23-18.07.55:810][203]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.23-18.07.55:830][203]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.23-18.07.55:830][203]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.23-18.07.55:839][203]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.23-18.07.55:852][203]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.23-18.07.55:852][203]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.23-18.07.55:907][203]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.23-18.07.55:940][203]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.23-18.07.55:940][203]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.23-18.07.55:972][203]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.23-18.07.56:019][203]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.23-18.07.56:020][203]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.23-18.07.56:203][203]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.23-18.07.56:203][203]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.23-18.07.56:203][203]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.23-18.07.56:203][203]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.23-18.07.56:208][203]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.23-18.07.56:208][203]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.23-18.07.57:256][203]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.23-18.07.57:264][203]LogDirectoryWatcher: A directory notification for 'D:/UE4/Ex_Anima/Content/' was aborted.
+[2017.07.23-18.07.57:264][203]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.23-18.07.57:264][203]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.23-18.07.57:532][203]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.23-18.07.57:651][203]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.23-18.07.57:651][203]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.23-18.07.57:651][203]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.23-18.07.57:651][203]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.23-18.07.57:713][203]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.23-18.07.57:737][203]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.23-18.07.57:737][203]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.23-18.07.57:738][203]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.23-18.07.57:906][203]LogDerivedDataCache: Shutdown
+[2017.07.23-18.07.57:906][203]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.23-18.07.57:906][203]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.23-18.07.57:917][203]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.23-18.07.57:918][203]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.23-18.07.57:920][203]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.23-18.07.57:920][203]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.23-18.07.57:941][203]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.23-18.07.57:941][203]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.23-18.07.57:941][203]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.23-18.07.57:942][203]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.23-18.07.57:957][203]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.23-18.07.57:957][203]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.23-18.07.57:957][203]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.23-18.07.57:957][203]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.23-18.07.57:963][203]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.23-18.07.57:964][203]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.23-18.07.57:964][203]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.23-18.07.57:965][203]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.23-18.07.57:965][203]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.23-18.07.57:965][203]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.23-18.07.57:966][203]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.23-18.07.57:966][203]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.23-18.07.57:966][203]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.23-18.07.57:966][203]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.23-18.07.57:966][203]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.23-18.07.57:972][203]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.23-18.07.57:979][203]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.23-18.07.57:980][203]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.23-18.07.57:982][203]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.23-18.07.57:983][203]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.23-18.07.57:983][203]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.23-18.07.57:983][203]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.23-18.07.57:983][203]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.23-18.07.57:984][203]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.23-18.07.57:984][203]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.23-18.07.57:984][203]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.23-18.07.57:984][203]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.23-18.07.58:004][203]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.23-18.07.58:004][203]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.23-18.07.58:004][203]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.23-18.07.58:021][203]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.23-18.07.58:021][203]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.23-18.07.58:044][203]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.23-18.07.58:073][203]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.23-18.07.58:138][203]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.23-18.07.58:138][203]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.23-18.07.58:150][203]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB11BFC4E-4820-FCD7-1B6C-D2A8D175FB29%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=a5f12a434fa6d8fdbf4f51b148036930%7C3c2ac0c079214ef88680adc2e61e1eaa%7C2f62554c-fc71-4415-b20a-a122b63acb89&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.23-18.07.58:322][203]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.23-18.07.58:414][203]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.23-18.07.58:439][203]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.23-18.07.58:439][203]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.23-18.07.58:524][203]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.23-18.07.58:556][203]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.23-18.07.58:576][203]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.23-18.07.58:576][203]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.23-18.07.58:592][203]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.23-18.07.59:049][203]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.23-18.07.59:076][203]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.23-18.07.59:076][203]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.23-18.07.59:076][203]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.23-18.07.59:076][203]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.23-18.07.59:076][203]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.23-18.07.59:076][203]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.23-18.07.59:096][203]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.23-18.07.59:096][203]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.23-18.07.59:096][203]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.23-18.07.59:348][203]LogExit: Exiting.
+[2017.07.23-18.07.59:884][203]Log file closed, 07/23/17 20:07:59
